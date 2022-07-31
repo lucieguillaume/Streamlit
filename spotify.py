@@ -30,11 +30,11 @@ st.sidebar.subheader("Good vibes")
 st.sidebar.subheader("Sad songs")
 st.sidebar.subheader("70s Road Trip")
 
-# Import du fichier audio
-audio_file = open("surprise.wav",'rb')
-audio_bytes = audio_file.read()
-# Ajout du lecteur à la sidebar
-st.sidebar.audio(audio_bytes)
+# # Import du fichier audio
+# audio_file = open("surprise.wav",'rb')
+# audio_bytes = audio_file.read()
+# # Ajout du lecteur à la sidebar
+# st.sidebar.audio(audio_bytes)
 
 # Création de la structure du dashboard en 2 colonnes
 left_block, right_block = st.columns([1,1])
