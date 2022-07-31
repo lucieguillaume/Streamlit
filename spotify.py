@@ -1,5 +1,5 @@
-#pip install streamlit-aggrid
-#pip install plotly --upgrade
+# pip install streamlit-aggrid
+# pip install plotly --upgrade
 
 import pandas as pd 
 import plotly.express as px 
@@ -7,7 +7,7 @@ import streamlit as st
 st.set_page_config(layout="wide") # Mettre la page en mode élargie
 
 #Import du jeu de données 
-df = pd.read_csv('spotify.csv')
+df = pd.read_csv('/Users/lucel/OneDrive/Documents/streamlit/spotify.csv')
 df_clean = df.loc[df['year'] > 2010] # Suppression de 4 titres pour améliorer le rendus des graphiques
 
 # Création titre et sous titre
@@ -16,7 +16,7 @@ st.markdown("À l'aide des données de la playlist 'Top 100 most streamed' sur S
 st.markdown("_____________________________________________________")
 
 # Création de la sidebar
-st.sidebar.image("logo2.png",width=190)
+st.sidebar.image("/Users/lucel/OneDrive/Documents/streamlit/logo2.png",width=190)
 st.sidebar.title("...")
 st.sidebar.subheader("🏠 Accueil")
 st.sidebar.subheader("🔎 Rechercher")
@@ -31,7 +31,7 @@ st.sidebar.subheader("Sad songs")
 st.sidebar.subheader("70s Road Trip")
 
 # Import du fichier audio
-audio_file = open("surprise.wav",'rb')
+audio_file = open("/Users/lucel/OneDrive/Documents/streamlit/surprise.wav",'rb')
 audio_bytes = audio_file.read()
 # Ajout du lecteur à la sidebar
 st.sidebar.audio(audio_bytes)
