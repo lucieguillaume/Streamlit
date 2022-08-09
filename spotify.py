@@ -1,4 +1,4 @@
-pip install streamlit-aggrid
+# pip install streamlit-aggrid
 pip install plotly --upgrade
 
 import pandas as pd 
