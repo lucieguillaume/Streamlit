@@ -23,4 +23,8 @@ https://docs.google.com/presentation/d/1v_GO9OaICXxVjOqs1ZRF0mHpU87Jjh8mpP8gq5Vj
 
 *- J'ai d'abord édité mon Streamlit en local, puis je l'ai herbergé sur Streamlit Cloud.*
 
+*- Merci de regarder ce dashboard en thème Dark (à retrouver dans les Settings en haut à droite), le fichier config.toml n'étant pas pris en charge *
+
 *- Ce dashboard a été créé pour des besoins pédagogiques*
+
+
