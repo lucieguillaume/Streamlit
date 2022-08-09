@@ -1,5 +1,6 @@
 # pip install streamlit-aggrid
-pip install plotly --upgrade
+# pip install plotly --upgrade
+$ pip install streamlit --upgrade
 
 import pandas as pd 
 import plotly.express as px 
